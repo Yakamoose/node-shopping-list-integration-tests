@@ -1,3 +1,9 @@
 language: node_js
 node_js: node
-   
+deploy:
+  provider: heroku
+  api_key:
+    secure: hoaD49IcXv4RQLdE1Qz63lUb4SpyBcXz3WO0a5pTtZPT5Oa9KOvvJe/EA3QiveIw0IteWKntr25c9gWgZ8BK+7JoMSdwHCsSyWF5irzZVCO5Q0pgP9hszxoPF8M/zvv/9yikIsBU37Kk/LMWW4K+bt0WilGwt4mUKmned4DzrViquOBFX++LKW44P+P956Q9X4h7A8W5R52ipFZNu7PcpZOr7X6u5AtmJ8kwX+K6hTbTcYt89JYdvLrlGrOVcN/qulvlhvRkaBQLr3X0OjVb6KCaXLVQg91mmFKXo/0ORSOtYV10HU6bLyKjWllnwIWELIb87yBATuZY4JQ46c6J6wnqTEAw1zGxeG5b5CXs9IzT+a3NSZ+Y7tVDY/iqi45yo946e/ZbdVvzACINskZ4/z28YobkjstGGP3CtkAoNbLM1TUWgKoQIkxqnVWK/xSacYG6wX8jCCi2wUfItY3Py+GQB1iS3IQxIPV8vCQsEDEWn6p+C2+sCezlm5O14RM4ud24HzVHpx3O3EhNyfyCNQeTK5W9t1vvRajZkce1QoqjyVpoVV93VHk0ED+GCVcdE8TvrC/POjjKuVNNiyuFTRK2wHl50VUtrqT0d4edkasjyeKfS3jDs/jqeLnunGmudR/6QWO09U2DvUwiavO8PXbTQruJQvYzkqzcqpdZVVI=
+  app: safe-stream-45800
+  on:
+    repo: Yakamoose/node-shopping-list-integration-tests
